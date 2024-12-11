@@ -1,0 +1,109 @@
+/* DashboardLayout.css */
+.dashboard-layout {
+  min-height: 100vh;
+}
+
+.dashboard-sider {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container {
+  height: 104px;
+  /* padding: 16px; */
+  display: flex;
+  background-color: #000000;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.logo-text {
+  margin: 0;
+  color: #1890ff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dashboard-header {
+  padding: 0 24px;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+}
+
+.trigger-button {
+  font-size: 18px;
+  width: 48px;
+  height: 48px;
+}
+
+.dashboard-content {
+  /* margin: 24px; */
+  padding: 24px;
+  background: #e1e1e1;
+  border-radius: 4px;
+  min-height: 280px;
+}
+
+.content-container {
+  padding: 24px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+/* Optional: Custom scrollbar for sidebar */
+.ant-layout-sider-children {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.ant-layout-sider-children::-webkit-scrollbar {
+  width: 6px;
+}
+
+.ant-layout-sider-children::-webkit-scrollbar-thumb {
+  background: #e6e6e6;
+  border-radius: 3px;
+}
+
+.ant-layout-sider-children::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dashboard-header {
+  padding: 0 16px;
+  background: #000000;
+}
+
+.dashboard-header .trigger-button,
+.dashboard-header .user-dropdown {
+  color: rgb(255, 255, 255);
+}
+
+.dashboard-header .trigger-button:hover,
+.dashboard-header .user-dropdown:hover {
+  color: rgb(255, 255, 255);
+}
+
+.logo-text {
+  color: #1890ff;
+  /* Customize logo color */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user-dropdown {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.username {
+  margin-left: 8px;
+}
+
+.trigger-button {
+  margin-right: 8px;
+}

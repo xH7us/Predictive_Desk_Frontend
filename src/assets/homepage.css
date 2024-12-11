@@ -1,0 +1,51 @@
+/* DashboardPage.css */
+.dashboard-page {
+    padding: 24px;
+  }
+  
+  .stats-row {
+    margin-bottom: 24px;
+  }
+  
+  .stat-card {
+    height: 100%;
+    transition: all 0.3s;
+  }
+  
+  .stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(0, 0, 0, 0.45);
+  }
+  
+  .table-card {
+    margin-bottom: 24px;
+  }
+  
+  .status-tag {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .status-active {
+    background-color: #e6f7ff;
+    color: #1890ff;
+  }
+  
+  .status-pending {
+    background-color: #fff7e6;
+    color: #faad14;
+  }
+  
+  .status-completed {
+    background-color: #f6ffed;
+    color: #52c41a;
+  }

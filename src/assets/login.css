@@ -1,0 +1,126 @@
+/* LoginPage.css */
+.auth-layout {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7ff 0%, #fff1f1 100%);
+  }
+  
+  .auth-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+  }
+  
+  .auth-card {
+    background: white;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .auth-title {
+    text-align: center;
+    margin-bottom: 16px !important;
+  }
+  
+  .auth-subtitle {
+    display: block;
+    text-align: center;
+    color: #666;
+    margin-bottom: 24px;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 24px;
+  }
+  
+  .forgot-password a {
+    color: #1890ff;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .auth-footer {
+    text-align: center;
+  }
+  
+  .auth-footer a {
+    color: #1890ff;
+    cursor: pointer;
+  }
+  
+  /* Optional: Custom theme colors */
+  .ant-btn-primary {
+    background: linear-gradient(135deg, #1890ff 0%, #1677ff 100%);
+  }
+  
+  .ant-input-affix-wrapper:focus,
+  .ant-input-affix-wrapper-focused {
+    border-color: #1890ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.1);
+  }
+
+  .auth-sider {
+    background-color: #000000; /* Adjust for a visually striking appearance */
+    color: #ffffff;
+    padding: 40px;
+  }
+
+  .auth-sider-left {
+    background: linear-gradient(135deg, #7295b6 0%, #07111f 100%);
+    color: #ffffff;
+    padding: 40px;
+  }
+
+  .banner-content {
+    text-align: center;
+  }
+  
+  .banner-logo {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .banner-title {
+    color: #ffffff !important;
+    margin: 10px 0;
+  }
+  
+  .banner-text {
+    color: #bfbfbf;
+    margin-bottom: 30px;
+  }
+  
+  .feature-list {
+    margin-top: 30px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: left;
+    margin-bottom: 20px;
+  }
+  
+  .feature-icon {
+    font-size: 32px;
+    color: #1890ff;
+    margin-right: 15px;
+  }
+  
+  .feature-title {
+    margin: 0;
+    color: #ffffff !important;
+  }
+  
+  .feature-description {
+    color: #d9d9d9;
+  }
+  
